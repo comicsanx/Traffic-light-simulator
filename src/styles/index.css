@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+}
+
+.CajaSemaforo {
+    background-color: black;
+    height: 1200px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.Semaforo {
+    background-color: transparent;
+    height: 1000px ;
+    width:350px ;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.RedLight, .GreenLight, .YellowLight, .PurpleLight {
+border-radius: 50%;
+height: 250px;
+width: 250px;
+opacity: 0.3;
+}
+
+.RedLight{
+    background-color: red;
+}
+.GreenLight {
+    background-color: green;
+}
+.YellowLight {
+    background-color: yellow;
+}
+.PurpleLight {
+    background-color: purple;
+}
+
+.LightOn {
+    filter: brightness(1.8);
+    opacity: 1;
+}
